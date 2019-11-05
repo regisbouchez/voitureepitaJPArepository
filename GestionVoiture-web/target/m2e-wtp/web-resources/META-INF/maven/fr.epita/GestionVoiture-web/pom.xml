@@ -1,0 +1,43 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <parent>
+    <groupId>fr.epita</groupId>
+    <artifactId>GestionVoiture</artifactId>
+    <version>0.0.1-SNAPSHOT</version>
+  </parent>
+  <artifactId>GestionVoiture-web</artifactId>
+  <packaging>war</packaging>
+  
+  <dependencies>
+  <!-- https://mvnrepository.com/artifact/org.springframework.boot/spring-boot-starter-web -->
+	<dependency>
+    	<groupId>org.springframework.boot</groupId>
+    	<artifactId>spring-boot-starter-web</artifactId>
+   	 <version>2.2.0.RELEASE</version>
+	</dependency>
+	
+	<dependency>
+		<groupId>fr.epita</groupId>
+ 		 <artifactId>GestionVoiture-service</artifactId>
+  		<version>0.0.1-SNAPSHOT</version>
+  	</dependency>
+  	<dependency>
+  			<groupId>fr.epita</groupId>
+    		<artifactId>GestionVoiture-entite</artifactId>
+   			 <version>0.0.1-SNAPSHOT</version>
+ 		</dependency>
+  </dependencies>
+
+  <build>
+    <plugins>
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-war-plugin</artifactId>
+        <version>3.2.3</version>
+      <configuration>
+          <failOnMissingWebXml>false</failOnMissingWebXml>
+      </configuration>  
+      </plugin>
+    </plugins>
+  </build>
+</project>

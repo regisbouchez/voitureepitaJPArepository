@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/GestionVoiture.iml" filepath="$PROJECT_DIR$/GestionVoiture.iml" />
+      <module fileurl="file://$PROJECT_DIR$/GestionVoiture-entite/GestionVoiture-entite.iml" filepath="$PROJECT_DIR$/GestionVoiture-entite/GestionVoiture-entite.iml" />
+      <module fileurl="file://$PROJECT_DIR$/GestionVoiture-persistance/GestionVoiture-persistance.iml" filepath="$PROJECT_DIR$/GestionVoiture-persistance/GestionVoiture-persistance.iml" />
+      <module fileurl="file://$PROJECT_DIR$/GestionVoiture-service/GestionVoiture-service.iml" filepath="$PROJECT_DIR$/GestionVoiture-service/GestionVoiture-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/GestionVoiture-web/GestionVoiture-web.iml" filepath="$PROJECT_DIR$/GestionVoiture-web/GestionVoiture-web.iml" />
+    </modules>
+  </component>
+</project>
